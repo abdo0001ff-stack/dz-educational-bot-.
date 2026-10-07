@@ -3,7 +3,6 @@ name: Run Telegram Bot
 on:
   workflow_dispatch:
 
-# إلغاء أي تشغيل سابق عالق تلقائياً لتفادي ازدحام الطابور
 concurrency:
   group: telegram-bot
   cancel-in-progress: true
